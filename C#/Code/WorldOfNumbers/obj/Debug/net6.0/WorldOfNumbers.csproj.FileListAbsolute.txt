@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/WorldOfNumbers
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/WorldOfNumbers.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/WorldOfNumbers.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/WorldOfNumbers.dll
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/ref/WorldOfNumbers.dll
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/bin/Debug/net6.0/WorldOfNumbers.pdb
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.dll
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/ref/WorldOfNumbers.dll
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.pdb
+/Users/kingbrooks/Desktop/github/RyanB/WorldOfNumbers/obj/Debug/net6.0/WorldOfNumbers.genruntimeconfig.cache

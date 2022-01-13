@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/StringManipulation
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/StringManipulation.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/StringManipulation.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/PokerX.dll
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/ref/PokerX.dll
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/bin/Debug/net6.0/PokerX.pdb
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/PokerX.dll
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/ref/PokerX.dll
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/PokerX.pdb
+/Users/kingbrooks/Desktop/github/RyanB/StringManipulation/obj/Debug/net6.0/StringManipulation.genruntimeconfig.cache

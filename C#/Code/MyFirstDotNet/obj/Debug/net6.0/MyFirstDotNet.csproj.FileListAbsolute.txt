@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/MyFirstDotNet
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/MyFirstDotNet.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/MyFirstDotNet.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/MyFirstDotNet.dll
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/ref/MyFirstDotNet.dll
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/bin/Debug/net6.0/MyFirstDotNet.pdb
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.dll
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/ref/MyFirstDotNet.dll
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.pdb
+/Users/kingbrooks/Desktop/github/RyanB/MyFirstDotNet/obj/Debug/net6.0/MyFirstDotNet.genruntimeconfig.cache

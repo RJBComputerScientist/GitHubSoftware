@@ -1,0 +1,12 @@
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/bin/Debug/net6.0/DatabaseLibrary.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/bin/Debug/net6.0/DatabaseLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/bin/Debug/net6.0/ref/DatabaseLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/bin/Debug/net6.0/DatabaseLibrary.pdb
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/ref/DatabaseLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB/Lib/DatabaseLibrary/obj/Debug/net6.0/DatabaseLibrary.pdb

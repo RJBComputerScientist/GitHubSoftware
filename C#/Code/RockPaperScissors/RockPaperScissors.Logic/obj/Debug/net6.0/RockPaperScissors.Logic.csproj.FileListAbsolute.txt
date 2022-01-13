@@ -1,0 +1,12 @@
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/bin/Debug/net6.0/RockPaperScissors.Logic.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/bin/Debug/net6.0/RockPaperScissors.Logic.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/bin/Debug/net6.0/ref/RockPaperScissors.Logic.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/bin/Debug/net6.0/RockPaperScissors.Logic.pdb
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/ref/RockPaperScissors.Logic.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/RockPaperScissors.Logic/obj/Debug/net6.0/RockPaperScissors.Logic.pdb

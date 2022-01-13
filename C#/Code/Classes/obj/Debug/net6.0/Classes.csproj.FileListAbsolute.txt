@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/Classes
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/Classes.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/Classes.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/Classes.dll
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/ref/Classes.dll
+/Users/kingbrooks/Desktop/github/RyanB/Classes/bin/Debug/net6.0/Classes.pdb
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.dll
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/ref/Classes.dll
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.pdb
+/Users/kingbrooks/Desktop/github/RyanB/Classes/obj/Debug/net6.0/Classes.genruntimeconfig.cache

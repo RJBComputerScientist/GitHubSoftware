@@ -1,0 +1,12 @@
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/bin/Debug/net6.0/StoreAppLibrary.deps.json
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/bin/Debug/net6.0/StoreAppLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/bin/Debug/net6.0/ref/StoreAppLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/bin/Debug/net6.0/StoreAppLibrary.pdb
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/ref/StoreAppLibrary.dll
+/Users/kingbrooks/Desktop/github/RyanB-P0/StoreAppLibrary/obj/Debug/net6.0/StoreAppLibrary.pdb

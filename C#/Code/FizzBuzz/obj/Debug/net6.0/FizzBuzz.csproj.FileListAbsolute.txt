@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/FizzBuzz
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/FizzBuzz.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/FizzBuzz.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/FizzBuzz.dll
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/ref/FizzBuzz.dll
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/bin/Debug/net6.0/FizzBuzz.pdb
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.dll
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/ref/FizzBuzz.dll
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.pdb
+/Users/kingbrooks/Desktop/github/RyanB/FizzBuzz/obj/Debug/net6.0/FizzBuzz.genruntimeconfig.cache

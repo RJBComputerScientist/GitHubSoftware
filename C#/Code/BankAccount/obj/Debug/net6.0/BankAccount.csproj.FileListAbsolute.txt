@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/BankAccount
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/BankAccount.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/BankAccount.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/BankAccount.dll
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/ref/BankAccount.dll
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/bin/Debug/net6.0/BankAccount.pdb
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.dll
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/ref/BankAccount.dll
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.pdb
+/Users/kingbrooks/Desktop/github/RyanB/BankAccount/obj/Debug/net6.0/BankAccount.genruntimeconfig.cache

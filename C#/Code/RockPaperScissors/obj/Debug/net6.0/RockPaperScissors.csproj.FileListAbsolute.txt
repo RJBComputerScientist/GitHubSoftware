@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/RockPaperScissors
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/RockPaperScissors.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/RockPaperScissors.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/RockPaperScissors.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/ref/RockPaperScissors.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/bin/Debug/net6.0/RockPaperScissors.pdb
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/ref/RockPaperScissors.dll
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.pdb
+/Users/kingbrooks/Desktop/github/RyanB/RockPaperScissors/obj/Debug/net6.0/RockPaperScissors.genruntimeconfig.cache

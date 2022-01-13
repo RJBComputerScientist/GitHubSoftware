@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/Operators
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/Operators.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/Operators.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/Operators.dll
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/ref/Operators.dll
+/Users/kingbrooks/Desktop/github/RyanB/Operators/bin/Debug/net6.0/Operators.pdb
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.dll
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/ref/Operators.dll
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.pdb
+/Users/kingbrooks/Desktop/github/RyanB/Operators/obj/Debug/net6.0/Operators.genruntimeconfig.cache

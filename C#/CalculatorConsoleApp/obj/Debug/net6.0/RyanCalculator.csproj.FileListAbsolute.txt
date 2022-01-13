@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/RyanCalculator
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/RyanCalculator.deps.json
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/RyanCalculator.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/RyanCalculator.dll
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/ref/RyanCalculator.dll
+/Users/kingbrooks/Desktop/github/RyanCalculator/bin/Debug/net6.0/RyanCalculator.pdb
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.dll
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/ref/RyanCalculator.dll
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.pdb
+/Users/kingbrooks/Desktop/github/RyanCalculator/obj/Debug/net6.0/RyanCalculator.genruntimeconfig.cache

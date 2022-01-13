@@ -1,0 +1,15 @@
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/DynamicShapes
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/DynamicShapes.deps.json
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/DynamicShapes.runtimeconfig.json
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/DynamicShapes.dll
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/ref/DynamicShapes.dll
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/bin/Debug/net6.0/DynamicShapes.pdb
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.csproj.AssemblyReference.cache
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.AssemblyInfoInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.AssemblyInfo.cs
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.csproj.CoreCompileInputs.cache
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.dll
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/ref/DynamicShapes.dll
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.pdb
+/Users/kingbrooks/Desktop/github/RyanB/DynamicShapes/obj/Debug/net6.0/DynamicShapes.genruntimeconfig.cache
