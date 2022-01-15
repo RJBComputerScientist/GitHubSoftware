@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { View, StyleSheet, Text, TextInput, Button, TouchableWithoutFeedback, Keyboard, Alert } from "react-native";
+import React, { useState, useEffect } from "react";
+import { View, StyleSheet, Dimensions, Button, TouchableWithoutFeedback, Keyboard, Alert, ScrollView, KeyboardAvoidingView } from "react-native";
 
 import Card from '../components/Card';
 import colors from "../constants/colors";
@@ -12,7 +12,27 @@ import MainButton from "../components/MainButton";
 const StartGameScreen = props => {
     const [enteredValue, setEnteredValue] = useState('');
     const [confirmed, setConfirmed] = useState(false);
-    const [selectedNumber, setSelectedNumber] = useState()
+    const [selectedNumber, setSelectedNumber] = useState();
+    const [buttonWidth, setButtonWidth] = useState(Dimensions.get('window').width / 4);
+
+    // const updateLayout = () => {
+    //     setButtonWidth(Dimensions.get('window').width / 4);
+    // }
+
+    // Dimensions.addEventListener('change', updateLayout);
+    //^^ asking for update of dimensions
+    //^^effiecient to do it like this
+
+    useEffect(() => {
+        const updateLayout = () => {
+            setButtonWidth(Dimensions.get('window').width / 4);
+        }
+    
+        Dimensions.addEventListener('change', updateLayout);
+        return () => {
+            Dimensions.removeEventListener('change', updateLayout)
+        }
+    })
 
     const numberStored = inputText => {
         setEnteredValue(inputText.replace(/[^0-9]/g, ''));
@@ -49,6 +69,8 @@ const StartGameScreen = props => {
         </Card>
     }
     return (
+        <ScrollView>
+        <KeyboardAvoidingView behavior="position" keyboardVerticalOffset={30}>
         <TouchableWithoutFeedback onPress={() => {
             Keyboard.dismiss();
         }}>
@@ -66,13 +88,21 @@ const StartGameScreen = props => {
                 onChangeText={numberStored}
                 />
                 <View style={styles.buttonContainer}>
-                <View style={styles.button}><Button title="reset" onPress={() => {resetINputHandler()}} color={colors.accent} /></View>
-                <View style={styles.button}><Button title="confirm" onPress={() => {confirmTextHanlder()}} color={colors.primary} /></View>
+                    {/* <View style={styles.button}> */}
+                    <View style={{width: buttonWidth}}>
+                        <Button title="reset" onPress={() => {resetINputHandler()}} color={colors.accent} />
+                    </View>
+                 {/* <View style={styles.button}> */}
+                 <View style={{width: buttonWidth}}>
+                        <Button title="confirm" onPress={() => {confirmTextHanlder()}} color={colors.primary} />
+                    </View>
                 </View>
             </Card>
             {confirmedOutput}
         </View>
         </TouchableWithoutFeedback>
+        </KeyboardAvoidingView>
+        </ScrollView>
     );
 }
 
@@ -89,10 +119,16 @@ const styles = StyleSheet.create({
         fontFamily: 'OpenSans-Bold'
     },
     inputContainer: {
-        width: 300,
-        maxWidth: '80%',
+        // width: 300,
+        // maxWidth: '80%',
+        // alignItems: 'center',
+        //^^ not as flexible 
+        width: '80%',
+        // maxWidth: '80%',
+        maxWidth: '95%',
+        minWidth: 300,
         alignItems: 'center',
-     
+        //^^^ better for smaller screens
     },
     buttonContainer: {
         flexDirection: 'row',
@@ -100,9 +136,12 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         paddingHorizontal: 15
     },
-    button: {
-        width: 100
-    },
+    // button: {
+    //     // width: 100
+    //     width: Dimensions.get('window').width / 4
+    //     //^^ only at first render cycle
+    // },
+    //^^ using inline objects
     input: {
         width: 100,
         textAlign: 'center',

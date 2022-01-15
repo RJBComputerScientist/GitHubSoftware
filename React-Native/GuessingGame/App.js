@@ -65,10 +65,10 @@ export default function App(){
     content = <GameOverScreen roundsNumber={guessRounds} userNumber={userNumber} onRestart={ConfigureNewGameHandler} />
   }
   return (
-    <View style={styles.screen}>
+    <SafeAreaView style={styles.screen}>
       <Header title="Guess A Number" />
       {content}
-    </View>
+    </SafeAreaView>
   );
 }
 
