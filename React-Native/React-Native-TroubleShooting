@@ -1,0 +1,30 @@
+FOR A NEW REACT NATIVE PROJECT AT 0.64.3 & 0.63.4 WITH EXPO ~44.0.2 (THIS WAS AT THE NEWEST SDK)
+My steps that worked for me are:
+1. expo init <NameOfProject>
+2. Bare-minimum
+
+	IOS:
+1. Change what is in red and yellow yourself (depending on the package installers is a waste of time)
+2. Add these line: 
+File - AppDelegate.m
+
+#if RCT_DEV
+#import <React/RCTDevLoadingView.h>
+#endif
+//^^^ ADDED THIS
+
+  #if RCT_DEV
+  [bridge moduleForClass:[RCTDevLoadingView class]];
+#endif
+  RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
+                                                   moduleName:@"main"
+                                            initialProperties:nil];
+  //^^^ ADDED THIS (replace the other RCTRootView *rootView)
+
+	ANDROID:
+1. I oddly had to re do my path variables
+2. Using a API 29 with Android 10 (Q) x86 for this laptop (re did the simulator and removed  android api 30)
+3. Launched app in android studio and used a terminal for the metro server
+
+	(^^^^ THIS WAS TO GET A BRAND NE PROJECT RUNNING ^^^^)
+		FURTHER NOTES MAY BE APPLIED LATER

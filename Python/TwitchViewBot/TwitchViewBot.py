@@ -5,9 +5,9 @@ Channel_Url = 'https://www.twitch.tv/'
 # Number Of Bots
 botcount = 5
 # Path To Proxy List
-Proxy_Path = "./Proxy1.txt"
+Proxy_Path = "/Users/kingbrooks/Desktop/Proxy1.txt"
 #Path To VLC
-PlayerPath = r'"/Applications/VLC.app"'
+PlayerPath = r'"/Applications/VLC.app/Contents/MacOS"'
 
 #import os
 #dirname = os.path.dirname(__file__)
