@@ -21,6 +21,37 @@ File - AppDelegate.m
                                             initialProperties:nil];
   //^^^ ADDED THIS (replace the other RCTRootView *rootView)
 
+3. Add To Podfile
+Take Out these lines:
+post_integrate do |installer|
+    begin
+      expo_patch_react_imports!(installer)
+    rescue => e
+      Pod::UI.warn e
+    end
+  end
+
+And Add These Lines:
+ post_integrate do |installer|
+    update_pod_build_phase_order("./Pods/Pods.xcodeproj", "ExpoModulesCore")
+  end
+
+  def update_pod_build_phase_order(xcodeproj_path, target_name)
+    puts "Updating build phase order of 'Headers' in #{xcodeproj_path}, #{target_name} \n"
+    project = Xcodeproj::Project.open(xcodeproj_path)
+    target = project.targets.select { |t| t.name == target_name }.first
+    puts "Found target: #{target.name}\n"
+    cocoapods_index = target.build_phases.index do |b|
+      puts "#{b} , #{b == "HeadersBuildPhase"}"
+      b.to_s == "HeadersBuildPhase"
+    end
+    if cocoapods_index.nil? == false
+        puts "#{target_name}: 'HeadersBuildPhase' index was: #{cocoapods_index}, moving to index 1.\n"
+        target.build_phases.move_from(cocoapods_index, 1)
+    end
+    project.save
+  end
+
 	ANDROID:
 1. I oddly had to re do my path variables
 2. Using a API 29 with Android 10 (Q) x86 for this laptop (re did the simulator and removed  android api 30)
