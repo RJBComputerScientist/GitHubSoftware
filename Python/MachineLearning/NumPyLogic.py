@@ -25,3 +25,9 @@ print("Last Row: %s" % myarray[-1])
 print("specific row and col: %s" % myarray[0, 2])
 # the whole column
 print("whole column: %s" % myarray[:, 2]) 
+
+# arithemetic operations
+myarray1 = numpy.array([2, 2, 2])
+myarray2 = numpy.array([3, 3, 3])
+print("Addition: %s" % (myarray1 + myarray2))
+print("Multiplication: %s" % (myarray1 * myarray2))
