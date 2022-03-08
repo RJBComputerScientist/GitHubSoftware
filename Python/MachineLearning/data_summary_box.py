@@ -7,9 +7,10 @@ Created on Fri Feb 25 16:42:07 2022
 """
 
 from pandas import read_csv
+from matplotlib import pyplot
 filename = 'pima-indians-diabetes.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = read_csv(filename, names=names)
 
-skew = data.skew()
-print(skew)
+data.plot(kind="box", subplots=True, layout=(3,3), sharex=False, sharey=False)
+pyplot.show()

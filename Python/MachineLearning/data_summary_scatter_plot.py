@@ -7,9 +7,12 @@ Created on Fri Feb 25 16:42:07 2022
 """
 
 from pandas import read_csv
+from matplotlib import pyplot
+from pandas.plotting import scatter_matrix
 filename = 'pima-indians-diabetes.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = read_csv(filename, names=names)
 
-skew = data.skew()
-print(skew)
+# scatter matrix
+scatter_matrix(data)
+pyplot.show()
