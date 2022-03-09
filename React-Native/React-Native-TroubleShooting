@@ -57,8 +57,25 @@ And Add These Lines:
 2. Using a API 29 with Android 10 (Q) x86 for this laptop (re did the simulator and removed  android api 30)
 3. Launched app in android studio and used a terminal for the metro server
 
+	TO CHANGE SDK VERSION ON REACT NATIVE
+1. yarn add react-native@X.XX.X --save
+2. (For resetting cache, deleting and re-installing node modules)
+- watchman watch-del-all && rm -rf node_modules && yarn install && react-native start --reset-cache && rm -rf /tmp/metro-*
+^^^ easy and faster way to reset everything according to your version 
+^^^^ can also just use number 1 but if you need to refresh the cache add number 2 as well
 	(^^^^ THIS WAS TO GET A BRAND NE PROJECT RUNNING ^^^^)
 		FURTHER NOTES MAY BE APPLIED LATER
 
-	Also Testing Older version react natives can 
-	go with expo go verion 2.19.0
+	REACT NATIVE TESTING
+Jest-Native: npm install --save-dev @testing-library/jest-native
+Jest-Expo: yarn add --dev jest-expo jest
+ADD THIS IN PACKAGE.JSON YOURSELF
+"scripts": {
+  ...
+  "test": "jest"
+},
+"jest": {
+  "preset": "jest-expo"
+}
+React-Native Testing Library: yarn add --dev @testing-library/react-native
+Jest-Fetch-Mock: npm install --save-dev jest-fetch-mock
