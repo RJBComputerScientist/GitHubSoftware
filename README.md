@@ -1,4 +1,4 @@
 # GitHubSoftware
 
 Technologies Of C# - .NET, React-Native - Javascript/Typescript, 
-ck2Parser - Python,
+Python - SkiKit-Learn, Numpy, Pandas, SciPy, MatPlotLib, c2kParser 
