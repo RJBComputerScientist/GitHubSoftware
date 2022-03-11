@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Feb 25 16:42:07 2022
+
+@author: kingbrooks
+"""
+
+from pandas import read_csv
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import KFold
+from sklearn.linear_model import LogisticRegression
+from pickle import dump
+from pickle import load
+
+filename = 'pima-indians-diabetes.csv'
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+dataframe = read_csv(filename, names=names)
+
+array = dataframe.values
+
+# splitting the array to input to output
+X = array[:, 0:8] 
+Y = array[:, 8] 
+
+num_folds = 10
+seed = 7
+
+#kfold = KFold(n_splits=num_folds, random_state=seed)
+#                 random_state is depreciated    
+#ValueError: Setting a random_state has no effect since shuffle is False. 
+#You should leave random_state to its default (None), or set shuffle=True.   
+kfold = KFold(n_splits=num_folds)
+model = LogisticRegression(solver="liblinear")
+
+#save this model to disk for reuse
+filename = 'pickle_model.sav'
+dump(model, open(filename, 'wb'))
+
+# Move this file to another cmputer or server
+
+#load the file
+loaded_model = load(open(filename, 'rb'))
+
+results = cross_val_score(loaded_model, X, Y, cv=kfold)
+print("Mean Estimated Accuracy Logistic Regression: %f " % (results.mean()))
