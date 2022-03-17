@@ -64,6 +64,9 @@ And Add These Lines:
 ^^^ easy and faster way to reset everything according to your version 
 ^^^^ can also just use number 1 but if you need to refresh the cache add number 2 as well
 	(^^^^ THIS WAS TO GET A BRAND NE PROJECT RUNNING ^^^^)
+
+	IF THERE IS A ISSUE WITH THE "CYCLE IN DEPENDENCIES"
+USE THIS: cd ios && rm -rf Pods && pod install && cd ..
 		FURTHER NOTES MAY BE APPLIED LATER
 
 	REACT NATIVE TESTING
@@ -75,7 +78,10 @@ ADD THIS IN PACKAGE.JSON YOURSELF
   "test": "jest"
 },
 "jest": {
-  "preset": "jest-expo"
+  "preset": "jest-expo",
+  "setupFiles": [
+     "./setupJest.js"
+  ]
 }
 React-Native Testing Library: yarn add --dev @testing-library/react-native
-Jest-Fetch-Mock: npm install --save-dev jest-fetch-mock
+Jest-Fetch-Mock: yarn add --dev jest-fetch-mock

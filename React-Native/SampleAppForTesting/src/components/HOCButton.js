@@ -18,7 +18,7 @@ const HOCButton = (props) => {
                 props.consoleOut()
                 // props.NextScreen()
                 //^^ would need to use props here
-            }}>
+            }} {...props}>
                 <>
                     {props.children}
                     {/* ^^ NEED THIS IN REACT NATIVE TO INCLUDE CHILDREN */}

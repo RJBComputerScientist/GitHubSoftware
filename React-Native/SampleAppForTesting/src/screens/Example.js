@@ -35,7 +35,7 @@ export default ({ navigation }) => {
                 }}>
                 <Text style={styles.TextCentering}>{ScreenNames[0]}</Text>
             </HOCButton>
-            <HOCButton consoleIn={()=>console.log("OnPressIn Button 2")} consoleOut={()=>console.log("OnPressOut Button 2")} />
+            <HOCButton consoleIn={()=>console.log("OnPressIn Button 2")} consoleOut={()=>console.log("OnPressOut Button 2")} testID="SignIn.HOCBUtton2" />
             <HOCButton consoleIn={()=>console.log("OnPressIn Button 3")} consoleOut={()=>console.log("OnPressOut Button 3")} />
         </View>
     )
