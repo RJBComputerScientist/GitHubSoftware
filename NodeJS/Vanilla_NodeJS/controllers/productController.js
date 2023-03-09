@@ -2,7 +2,7 @@ const Product = require('../models/productModel');
 /**
  * @param {string} req is the request 
  * @param {string} res is the response 
- * @readonly /api/products
+ * @readonly GET /api/products
  * @function {async} gets all products
  */
 async function getProducts(req, res) {
@@ -18,7 +18,7 @@ async function getProducts(req, res) {
 /**
  * @param {string} req is the request 
  * @param {string} res is the response 
- * @readonly /api/product/:id
+ * @readonly GET /api/product/:id
  * @function {async} gets single product
  */
 async function getProduct(req, res, id) {
@@ -36,7 +36,30 @@ async function getProduct(req, res, id) {
     }
 }
 
+/**
+ * @param {string} req is the request 
+ * @param {string} res is the response 
+ * @readonly  POST /api/products
+ * @function {async} gets single product
+ */
+async function createProduct(req, res, id) {
+    try {
+       const product = {
+        title: "test product",
+        description: 'This is my product',
+        price: 100
+       }
+
+       const newProduct = await Product.create(product);
+       res.writeHead(201, { 'Content-Type': 'application/json' })
+       return res.end(JSON.stringify(newProduct))
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 module.exports = {
     getProducts,
-    getProduct
+    getProduct,
+    createProduct
 }
