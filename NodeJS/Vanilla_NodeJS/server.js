@@ -1,13 +1,17 @@
 const http = require('http');
 const { getProducts, getProduct } = require('./controllers/productController');
+const Enum = require('./models/HTTP');
 
 const server = http.createServer((req, res) => {
-    if(req.url === '/api/products' && req.method === 'GET'){
+    if(req.url === '/api/products' && req.method === Enum.GET){
         getProducts(req, res)
-    } else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === 'GET'){
-        const id = req.url.split('/')[2]; //api/products/1
-        //                            ^^^0, ^^ 1,   ^^ 2
-    } 
+    } else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === Enum.GET){
+        const id = req.url.split('/')[3]; //api/products/1
+        //           '' as zero than    ^^1, ^^ 2, ^^ 3
+        getProduct(req, res, id);
+    } else if(req.url === req.url.match(/\/api\/products/) && req.method === Enum.POST){
+
+    }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'});
         res.end(JSON.stringify({ message: 'Route Not Found' }));
