@@ -43,14 +43,14 @@ async function getProduct(req, res, id) {
  * @readonly  POST /api/products
  * @function {async} gets single product
  */
-async function createProduct(req, res, id) {
+async function createProduct(req, res) {
     try {
         const body = await getPostData(req);
 
-        const { title, description, price } = JSON.parse(body)
+        const { name, description, price } = JSON.parse(body)
 
         const product = {
-            title,
+            name,
             description,
             price
            }
@@ -78,10 +78,10 @@ async function updateProduct(req, res, id) {
         } else {
             const body = await getPostData(req);
 
-        const { title, description, price } = JSON.parse(body)
+        const { name, description, price } = JSON.parse(body)
 
         const productExist = {
-            title: title || product.title,
+            name: name || product.name,
             description: description || product.description,
             price: price || product.price
            }
@@ -95,9 +95,32 @@ async function updateProduct(req, res, id) {
     }
 }
 
+/**
+ * @param {string} req is the request 
+ * @param {string} res is the response 
+ * @readonly DELETE /api/products/:id
+ * @function {async} Delete a product
+ */
+async function deleteProduct(req, res, id) {
+    try {
+        const product = await Product.findById(id);
+        if(!product){
+            res.writeHead(404, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify({ message: 'Product Not Found' }));
+        } else {
+            await Product.remove(id)
+            res.writeHead(200, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify({ message: `Product ${id} removed` }));
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 module.exports = {
     getProducts,
     getProduct,
     createProduct,
-    updateProduct
+    updateProduct,
+    deleteProduct
 }

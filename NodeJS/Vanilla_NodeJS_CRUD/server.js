@@ -1,11 +1,11 @@
 const http = require('http');
-const { getProducts, getProduct, createProduct, updateProduct } = require('./controllers/productController');
+const { getProducts, getProduct, createProduct, updateProduct, deleteProduct } = require('./controllers/productController');
 const Enum = require('./models/HTTP');
 
 const server = http.createServer((req, res) => {
     if(req.url === '/api/products' && req.method === Enum.GET){
         getProducts(req, res)
-    } else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === Enum.GET){
+    } else if(req.url.match(/\/api\/products\/([a-z0-9]+)/) && req.method === Enum.GET){
         const id = req.url.split('/')[3]; //api/products/1
         //           '' as zero than..    ^^1, ^^ 2, ^^ 3
         getProduct(req, res, id);
@@ -15,6 +15,10 @@ const server = http.createServer((req, res) => {
         const id = req.url.split('/')[3]; //api/products/1
         //           '' as zero than..    ^^1, ^^ 2, ^^ 3
         updateProduct(req, res, id);
+    } else if(req.url.match(/\/api\/products\/([a-z0-9]+)/) && req.method === Enum.DELETE){
+        const id = req.url.split('/')[3]; //api/products/1
+        //           '' as zero than..    ^^1, ^^ 2, ^^ 3
+        deleteProduct(req, res, id);
     }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'});
