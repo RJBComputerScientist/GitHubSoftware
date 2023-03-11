@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
 const assert = require('assert')
-
+/**
+ * @description MongoDB NoSQL
+ * @readonly asynchronous function for getting a database connection 
+ */
 const connectDB = async () => {
     try {
         const conn = await mongoose.connect(process.env.MONGO_URI, {
