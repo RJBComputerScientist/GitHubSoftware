@@ -21,7 +21,8 @@ module.exports = function() {
             image: profile.photos[0].value
         }
 
-        WaitTimer(5);
+        await WaitTimer(5)
+            
         try {
             let user = await User.findOne({ googleId: profile.id });
             // let user = await User.findById({ googleId: profile.id });
