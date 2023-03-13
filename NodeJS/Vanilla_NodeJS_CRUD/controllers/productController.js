@@ -40,6 +40,27 @@ async function getProduct(req, res, id) {
 /**
  * @param {string} req is the request 
  * @param {string} res is the response 
+ * @readonly GET /api/products/:id
+ * @function {async} get multiple products
+ */
+async function getManyProducts(req, res, ids = []) {
+    try {
+        const products = await Product.findManyIds(ids);
+        if(!products){
+            res.writeHead(404, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify({ message: "Products Not Found" }));
+        }else {
+            res.writeHead(200, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify(products));
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+/**
+ * @param {string} req is the request 
+ * @param {string} res is the response 
  * @readonly  POST /api/products
  * @function {async} gets single product
  */
@@ -120,6 +141,7 @@ async function deleteProduct(req, res, id) {
 module.exports = {
     getProducts,
     getProduct,
+    getManyProducts,
     createProduct,
     updateProduct,
     deleteProduct
