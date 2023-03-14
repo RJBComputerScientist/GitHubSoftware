@@ -28,3 +28,37 @@ console.log(filepath, base);
 
 const absolute = path.resolve(__dirname, 'Test-content', 'Test-subfolder', 'test.txt');
 global.console.log(absolute)
+
+const {readFileSync, writeFileSync, writeSync, readSync, readFile, writeFile} = require('fs');
+const { Console } = require('console');
+
+const first = readFileSync('./Test-content/first.txt', 'utf8');
+const second = readFileSync('./Test-content/second.txt', 'utf8');
+
+console.log(first, second);
+writeFileSync('./Test-content/result-sync.txt', `Here Is The Result: ${first}, ${second}`, {flag: 'a'});
+console.log("Start Task")
+readFile('./Test-content/first.txt', 'utf8', (err, buffer) => {
+    if(err){
+        console.log(err);
+        return
+    }
+    const first = buffer;
+    readFile('./Test-content/second.txt', 'utf8', (err, buffer) => {
+        if(err){
+            console.log(err);
+            return
+        }
+        const second = buffer;
+        writeFile('./Test-content/result-sync.txt', `Here Is The Result: ${first}, ${second}`, (err, buffer) => {
+            if(err){
+                console.log(err);
+                return
+            }
+            console.log(buffer)
+        });
+    })
+    console.log("Done With This Task")
+});
+//          ^^^^^^^^^^^ CALLBACK HELL ^^^^^^^^^^^
+console.log('Starting Next Task')
