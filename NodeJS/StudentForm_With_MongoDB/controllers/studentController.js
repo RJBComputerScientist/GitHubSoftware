@@ -23,15 +23,6 @@ async function insertRecord(req, res) {
     student.email = req.body.email;
     student.mobile = req.body.mobile;
     student.city = req.body.city;
-    // student.save((err, doc) => {
-    //     if(!err){
-    //         res.redirect('student/list');
-    //     } else {
-    //         console.log('Error during insert: '+err)
-    //     }
-    // })
-    // ^^ change to create
-
     try {
         const CreateAStudent = await Student.create(student);
         console.log(CreateAStudent)
@@ -43,14 +34,6 @@ async function insertRecord(req, res) {
 };
 
 async function updateRecord(req, res) {
-    // Student.findOneAndUpdate({ _id: req.body._id }, req.body, { new: true }, (err, doc) => {
-    //     if(!err){
-    //         res.redirect('student/list');
-    //     } else {
-    //         console.log('Error During Update: ' + err);
-    //     }
-    // });
-
     try {
         const UpdateAStudent = await Student.findOneAndUpdate({ _id: req.body._id }, req.body, { new: true });
         console.log(UpdateAStudent)
@@ -62,22 +45,6 @@ async function updateRecord(req, res) {
 }
 
 router.get('/list', async (req, res) => {
-    // Student.find((err, docs) => {
-    //     if(!err){
-    //         res.render('student/list', {
-    //             list: docs
-    //         });
-    //     } else {
-    //         console.log('Error In Retrieval: ' + err)
-    //     }
-    // });
-
-    // Student.find(res.render('student/list', "readPreference", (err, docs) => {
-    //     if(!err){
-    //         l
-    //     }
-    // }))
-
     try {
         const AllStudents = await Student.find({});
         console.log(AllStudents)
@@ -91,16 +58,6 @@ router.get('/list', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
-    // Student.findById(req.params.id, (err, doc) => {
-    //     if(!err){
-    //         res.render("student/addOrEdit", {
-    //             viewTitle: "Update Student", 
-    //             student: doc
-    //         });
-    //         console.log(doc);
-    //     }
-    // })
-
     try {
         const FindAStudent = await Student.findById(req.params.id);
         console.log(FindAStudent)
@@ -115,23 +72,14 @@ router.get('/:id', async (req, res) => {
 });
 
 router.get('/delete/:id', async (req, res) => {
-    // Student.findByIdAndRemove(req.params.id, (err, doc) => {
-    //     if(!err) {
-    //         res.redirect("student/list");
-    //     } else {
-    //         console.log("Error In Deletion " + err);
-    //     }
-    // })
-
     try {
         const DeleteAStudent = await Student.findByIdAndRemove(req.params.id);
         console.log(DeleteAStudent)
         if(!DeleteAStudent) throw new Error("Couldn't Delete Student");
-        res.redirect("student/list");
+        res.redirect("/student");
     } catch (err) {
         console.log("Error In Deletion " + err);
     }
-    // ^^^^ FIX LOGIC HERE ^^^^
 });
 
 module.exports = router;
