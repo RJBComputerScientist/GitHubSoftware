@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import net.CountryService.Beans.Country;
+import org.springframework.stereotype.Service;
 
+import net.CountryService.Beans.Country;
+import net.CountryService.Controllers.AddResponse;
+
+@Service
 public class CountryService {
 	
 	static HashMap<Integer, Country> countryIdMap;
@@ -23,7 +27,7 @@ public class CountryService {
 		return countryIdMap.get(id);
 	}
 	
-	public Country getCountryById(String countryName) {
+	public Country getCountryByName(String countryName) {
 		Country country = null;
 		for(int a: countryIdMap.keySet()) {
 			if(countryIdMap.get(a).getName().equals(countryName)) {
@@ -48,5 +52,21 @@ public class CountryService {
 		}
 		return max+1;
 	}
+	 
+	 public Country updateCountry(Country country) {
+			if(country.getId()>0) {
+				countryIdMap.put(country.getId(), country);
+			}
+			return country;
+		}
+	 
+	 public AddResponse deleteCountry(int id) {
+		 countryIdMap.remove(id);
+		 AddResponse res = new AddResponse();
+		 res.setMsg("Message Deleted...");
+		 res.setId(id);
+		 return res;
+	 }
+	 
 
 }
