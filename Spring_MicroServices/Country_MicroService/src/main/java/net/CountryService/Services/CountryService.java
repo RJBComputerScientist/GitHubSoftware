@@ -53,8 +53,8 @@ public class CountryService {
 	
 	public Country addCountry(Country country) {
 		country.setId(getMaxId());
-		countryRepo.save(country);
-		return country;
+		return countryRepo.save(country);
+//		return country;
 	}
 	
 	/**
@@ -70,8 +70,11 @@ public class CountryService {
 //			}
 //		}
 //		return max+1;
-		 
-		 return countryRepo.findAll().size()+1;
+		 if(countryRepo.findAll().size()==0) {
+			 return 1;
+		 } else {			 
+			 return countryRepo.findAll().size()+1;
+		 }
 	}
 	 
 	 public Country updateCountry(Country country) {
