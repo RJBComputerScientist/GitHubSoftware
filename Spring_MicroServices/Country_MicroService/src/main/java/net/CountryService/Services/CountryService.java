@@ -27,8 +27,17 @@ public class CountryService {
 		return countryRepo.findAll();
 	}
 	
-	public Optional<Country> getCountryById(int id) {
-		return countryRepo.findById(id);
+	public Country getCountryById(int id) {
+		
+		List<Country> countries = getAllCountries();
+		Country country = null;
+		
+		for(Country con : countries) {
+			if(con.getId() == id) {
+				country = con;
+			}
+		}
+		return country;
 	}
 	
 	public Country getCountryByName(String countryName) {
@@ -70,12 +79,16 @@ public class CountryService {
 			return country;
 		}
 	 
-	 public AddResponse deleteCountry(int id) {
-		 countryRepo.deleteById(id);
-		 AddResponse res = new AddResponse();
-		 res.setMsg("Message Deleted...");
-		 res.setId(id);
-		 return res;
+//	 public AddResponse deleteCountry(int id) {
+//		 countryRepo.deleteById(id);
+//		 AddResponse res = new AddResponse();
+//		 res.setMsg("Message Deleted...");
+//		 res.setId(id);
+//		 return res;
+//	 }
+	 
+	 public void deleteCountry(Country country) {
+		 countryRepo.delete(country);
 	 }
 	 
 
