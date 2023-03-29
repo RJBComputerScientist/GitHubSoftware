@@ -1,4 +1,4 @@
-package net.CountryService;
+package net.CountryMicroService;
 
 
 import static org.mockito.Mockito.times;

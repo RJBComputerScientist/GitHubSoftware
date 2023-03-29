@@ -23,7 +23,7 @@ import net.CountryService.Services.CountryService;
 public class CountryController {
 
 	@Autowired
-	static CountryService countryservice;
+	CountryService countryservice;
 	
 	@GetMapping("/getCountries")
 	public ResponseEntity<List<Country>> getCountries() {
