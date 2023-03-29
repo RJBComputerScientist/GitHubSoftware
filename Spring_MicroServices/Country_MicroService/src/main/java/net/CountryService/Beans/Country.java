@@ -14,7 +14,7 @@ public class Country {
 	@Column(name="id")
 	int id;
 	@Column(name="country_name")
-	String Name;
+	String name;
 	@Column(name="capital")
 	String countryCapital;
 	public Country() {
@@ -23,7 +23,7 @@ public class Country {
 	public Country(int id, String name, String countryCapital) {
 		super();
 		this.id = id;
-		Name = name;
+		this.name = name;
 		this.countryCapital = countryCapital;
 	}
 	public int getId() {
@@ -33,10 +33,10 @@ public class Country {
 		this.id = id;
 	}
 	public String getName() {
-		return Name;
+		return name;
 	}
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 	public String getCountryCapital() {
 		return countryCapital;
