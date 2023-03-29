@@ -3,16 +3,20 @@ package net.CountryService.Services;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import net.CountryService.Beans.Country;
 import net.CountryService.Controllers.AddResponse;
+import net.CountryService.Repositories.CountryRepository;
 
 @Service
 public class CountryService {
 	
-	static HashMap<Integer, Country> countryIdMap;
+	@Autowired
+	CountryRepository countryRepo;
 	
 //	No-Arg Constructor
 	public CountryService() {
@@ -20,18 +24,19 @@ public class CountryService {
 	}
 	
 	public List getAllCountries() {
-		return new ArrayList(countryIdMap.values());
+		return countryRepo.findAll();
 	}
 	
-	public Country getCountryById(int id) {
-		return countryIdMap.get(id);
+	public Optional<Country> getCountryById(int id) {
+		return countryRepo.findById(id);
 	}
 	
 	public Country getCountryByName(String countryName) {
+		List<Country> countries = getAllCountries();
 		Country country = null;
-		for(int a: countryIdMap.keySet()) {
-			if(countryIdMap.get(a).getName().equals(countryName)) {
-				country = countryIdMap.get(a);
+		for(Country con: countries) {
+			if(con.getName().equalsIgnoreCase(countryName)) {
+				country = con;
 			}
 		}
 		return country;
@@ -39,29 +44,34 @@ public class CountryService {
 	
 	public Country addCountry(Country country) {
 		country.setId(getMaxId());
-		countryIdMap.put(country.getId(), country);
+		countryRepo.save(country);
 		return country;
 	}
 	
+	/**
+	 * To find the maximum number of countries than 
+	 * plus one the size
+	 * @return size plus one
+	 */
 	 int getMaxId() {
-		int max = 0;
-		for(int id: countryIdMap.keySet()) {
-			if(max<=id) {
-				max = id;
-			}
-		}
-		return max+1;
+//		int max = 0;
+//		for(int id: countryIdMap.keySet()) {
+//			if(max<=id) {
+//				max = id;
+//			}
+//		}
+//		return max+1;
+		 
+		 return countryRepo.findAll().size()+1;
 	}
 	 
 	 public Country updateCountry(Country country) {
-			if(country.getId()>0) {
-				countryIdMap.put(country.getId(), country);
-			}
+		 	countryRepo.save(country);
 			return country;
 		}
 	 
 	 public AddResponse deleteCountry(int id) {
-		 countryIdMap.remove(id);
+		 countryRepo.deleteById(id);
 		 AddResponse res = new AddResponse();
 		 res.setMsg("Message Deleted...");
 		 res.setId(id);
