@@ -14,16 +14,16 @@ public class Country {
 	@Column(name="id")
 	int id;
 	@Column(name="country_name")
-	String name;
+	String countryName;
 	@Column(name="capital")
 	String countryCapital;
 	public Country() {
 		
 	}
-	public Country(int id, String name, String countryCapital) {
+	public Country(int id, String countryName, String countryCapital) {
 		super();
 		this.id = id;
-		this.name = name;
+		this.countryName = countryName;
 		this.countryCapital = countryCapital;
 	}
 	public int getId() {
@@ -32,11 +32,11 @@ public class Country {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getCountryName() {
+		return countryName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setCountryName(String name) {
+		this.countryName = name;
 	}
 	public String getCountryCapital() {
 		return countryCapital;

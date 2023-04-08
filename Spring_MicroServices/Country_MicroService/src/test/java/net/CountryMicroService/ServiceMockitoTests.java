@@ -82,7 +82,7 @@ class ServiceMockitoTests {
 		
 		when(countryRepo.findAll()).thenReturn(myCountries);
 		
-		assertEquals(countryName, countryService.getCountryByName(countryName).getName());
+		assertEquals(countryName, countryService.getCountryByName(countryName).getCountryName());
 	}
 	
 	@Test @Order(4)
@@ -91,18 +91,18 @@ class ServiceMockitoTests {
 		when(countryRepo.save(country)).thenReturn(country);
 		assertEquals(country, countryService.addCountry(country));
 		System.out.println(country.getId());
-		System.out.println(country.getName());
+		System.out.println(country.getCountryName());
 		System.out.println(country.getCountryCapital());
 	}
 	
 	@Test @Order(5)
 	public void test_updateCountry() {
-		 country.setName("China");
+		 country.setCountryName("China");
 		 country.setCountryCapital("Beijing");
 		when(countryRepo.save(country)).thenReturn(country);
 		assertEquals(country, countryService.updateCountry(country));
 		System.out.println(country.getId());
-		System.out.println(country.getName());
+		System.out.println(country.getCountryName());
 		System.out.println(country.getCountryCapital());
 	}
 	
@@ -111,7 +111,7 @@ class ServiceMockitoTests {
 		countryService.deleteCountry(country);
 		verify(countryRepo, times(1)).delete(country);
 		System.out.println(country.getId());
-		System.out.println(country.getName());
+		System.out.println(country.getCountryName());
 		System.out.println(country.getCountryCapital());
 	}
 

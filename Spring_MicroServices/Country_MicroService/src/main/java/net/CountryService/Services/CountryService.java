@@ -44,7 +44,7 @@ public class CountryService {
 		List<Country> countries = getAllCountries();
 		Country country = null;
 		for(Country con: countries) {
-			if(con.getName().equalsIgnoreCase(countryName)) {
+			if(con.getCountryName().equalsIgnoreCase(countryName)) {
 				country = con;
 			}
 		}

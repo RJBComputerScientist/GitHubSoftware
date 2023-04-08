@@ -71,7 +71,7 @@ public class CountryController {
 		try {
 			Country existingCountry = countryservice.getCountryById(id);
 			existingCountry.setCountryCapital(country.getCountryCapital());
-			existingCountry.setName(country.getName());
+			existingCountry.setCountryName(country.getCountryName());
 			Country updated_Country = countryservice.updateCountry(existingCountry);
 			return new ResponseEntity<Country>(updated_Country, HttpStatus.OK);	
 		} catch(Exception e) {
