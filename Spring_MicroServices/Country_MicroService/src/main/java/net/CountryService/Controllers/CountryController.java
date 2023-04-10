@@ -66,7 +66,7 @@ public class CountryController {
 		}
 	}
 	
-	@PutMapping("/updateCountry")
+	@PutMapping("/updateCountry/{id}")
 	public ResponseEntity<Country> updateCountry(@PathVariable(value="id") int id, @RequestBody Country country) {
 		try {
 			Country existingCountry = countryservice.getCountryById(id);
