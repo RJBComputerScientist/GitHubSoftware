@@ -11,10 +11,10 @@
  - Local MongoDB Setup (April 13, 2023)
  - Mongoose Schema (April 13, 2023)
  - CRUD API (April 13, 2023)
- - User Authentication
- - Registration & Login API
- - Controllers & DB Operations
- - Password Hashing & Comparing 
+ - User Authentication (April 13, 2023)
+ - Registration & Login API (April 13, 2023)
+ - Controllers & DB Operations (April 13, 2023)
+ - Password Hashing & Comparing (April 13, 2023)
  - Sign / Verify JWT Token
  - Handle Relationships
  - Protected Routes
