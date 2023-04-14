@@ -15,8 +15,10 @@
  - Registration & Login API (April 13, 2023)
  - Controllers & DB Operations (April 13, 2023)
  - Password Hashing & Comparing (April 13, 2023)
- - Sign / Verify JWT Token
- - Handle Relationships
- - Protected Routes
- - User Authorization
- - API Testing
+ - Sign / Verify JWT Token (April 13, 2023)
+ - Handle Relationships (April 13, 2023)
+ - Protected Routes (April 13, 2023)
+ - User Authorization (April 13, 2023)
+ - API Testing (April 13, 2023)
+
+(COMPLETED PROJECT ON 'April 13, 2023')
