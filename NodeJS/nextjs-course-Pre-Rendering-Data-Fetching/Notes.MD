@@ -13,3 +13,6 @@ reload in 5 seconds, it will take another 5 seconds to add up to 10 seconds to t
 - REMEMBER getStaticProps() runs before the component function runs
 - getStaticPaths() is to tell nextJS which instances of this dynamic page should be generated
 - getStaticPaths() should akways have a object with a "paths" key
+- fallback is useful when having alot of data in your server to load to the client-side
+- getServerSideProps() will get data from the server, this is not pre-generated data like getStaticProps()
+
