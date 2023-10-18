@@ -34,7 +34,7 @@ export default function Home(props) {
     <>
     <Head>
       <title>Pre-Rendering & Data Fetching</title>
-      <meta name='description' content='this is for practicing the NExtJS Framework' />
+      <meta name='description' content='this is for practicing the NextJS Framework' />
     </Head>
       <ul>
         {Products.map((product) => (

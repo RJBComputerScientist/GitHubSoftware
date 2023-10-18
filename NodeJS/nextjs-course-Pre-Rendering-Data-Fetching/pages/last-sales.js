@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
 function LastSalesPages(props) {
@@ -32,6 +33,11 @@ function LastSalesPages(props) {
     <p>No Data Yet...</p>
   }
   return (
+    <>
+    <Head>
+      <title>Last Sales</title>
+      <meta name="description" content="" />
+    </Head>
     <ul>
       {sales.map((sale) => (
         <li key={sale.id}>
@@ -39,6 +45,7 @@ function LastSalesPages(props) {
         </li>
       ))}
     </ul>
+    </>
   );
 }
 //combining pre-fetching and client-side fetching
