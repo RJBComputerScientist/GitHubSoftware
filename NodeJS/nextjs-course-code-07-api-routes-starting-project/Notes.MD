@@ -1,0 +1,4 @@
+- Using API Routes is a extra feature to NextJS, the "getStaticProps()" can still be used with it
+- Having "[...(name)].js" is the catch-all 
+- The alternative way of making a file is the same alternative way you can make a api route in the api folder
+- REMEMBER to whitelist the IP address of the deployed server in MongoDB, so incoming requests may go through

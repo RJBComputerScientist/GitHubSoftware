@@ -4,6 +4,8 @@ named as the page with a "index.js".
 - REMEMBER using the anchor tags href attribute would reload the entire page.
 - the "Link" component from "next/link" helps with fast refresh, keeping app state and pre-fetches data
 when hovering over the link it self. 
+- using the "href" attribute in the Link component, its absolute path starts in the pages folder in a
+pages based NextJS project.
 - I can add my own 404 page within a NextJS project
 - "unsplash.com" is where I can download stock photos that are good for website development.
 - A "Image(s)" folder should usually be in the "Public/" folder of a NextJS project
