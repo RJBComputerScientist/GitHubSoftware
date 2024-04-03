@@ -3,7 +3,7 @@ const greetMessage = document.querySelector("#greet-msg");
 const btn = document.querySelector("#greet-btn");
 
 function greetMessaging(name){
-    return `Hello ${name}!! Our tour guide will show you around!ASDASD`;
+    return `Hello ${name}!! Our tour guide will show you around!`;
 }
 
 function greet(){
