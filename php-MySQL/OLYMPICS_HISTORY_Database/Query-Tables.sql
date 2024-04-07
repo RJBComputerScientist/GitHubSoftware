@@ -1,0 +1,2 @@
+select * from OLYMPICS_HISTORY;
+select * from OLYMPICS_HISTORY_NOC_REGIONS;
