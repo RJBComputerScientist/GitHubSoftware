@@ -1,20 +1,20 @@
 DROP TABLE IF EXISTS OLYMPICS_HISTORY;
 CREATE TABLE IF NOT EXISTS OLYMPICS_HISTORY (
-    id BIGINT UNSIGNED,
-    name VARCHAR(100),
-    sex         VARCHAR(50),
-    age         VARCHAR(20),
-    height      VARCHAR(20),
-    weight      VARCHAR(40),
-    team        VARCHAR(50),
-    noc         VARCHAR(100),
-    games       VARCHAR(150),
-    year        INT(75),
-    season      VARCHAR(150),
-    city        VARCHAR(150),
-    sport       VARCHAR(100),
-    event       VARCHAR(175),
-    medal       VARCHAR(50)
+    id INT(6),
+    name VARCHAR(110),
+    sex         VARCHAR(1),
+    age         VARCHAR(2),
+    height      VARCHAR(3),
+    weight      VARCHAR(16),
+    team        VARCHAR(47),
+    noc         VARCHAR(3),
+    games       VARCHAR(11),
+    year        INT(4),
+    season      VARCHAR(6),
+    city        VARCHAR(22),
+    sport       VARCHAR(25),
+    event       VARCHAR(85),
+    medal       VARCHAR(6)
     );
     
 DROP TABLE IF EXISTS OLYMPICS_HISTORY_NOC_REGIONS;
