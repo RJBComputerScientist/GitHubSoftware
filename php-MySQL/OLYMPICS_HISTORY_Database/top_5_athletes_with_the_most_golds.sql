@@ -16,4 +16,4 @@ t2 as (
     SELECT *, dense_rank() over(order by total_medals desc) as rnk
     from t1)
    SELECT * FROM t2
-   where tnk <= 5;
+   where rnk <= 5;
